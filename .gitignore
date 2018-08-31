@@ -5,6 +5,9 @@
 .idea/**/dictionaries
 .idea/**/shelf
 
+# IntelliJ
+out/
+
 # Compiled class file
 *.class
 
