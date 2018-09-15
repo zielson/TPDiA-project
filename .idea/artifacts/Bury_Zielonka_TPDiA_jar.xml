@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Bury_Zielonka_TPDiA:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Bury_Zielonka_TPDiA_jar</output-path>
+    <root id="archive" name="Bury_Zielonka_TPDiA.jar">
+      <element id="module-output" name="TPDiA-project" />
+    </root>
+  </artifact>
+</component>

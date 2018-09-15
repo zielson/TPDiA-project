@@ -1,4 +1,4 @@
-package sample;
+package view;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,12 +10,11 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("mainView.fxml"));
-        primaryStage.setTitle("TPDiA Project");
-        primaryStage.setScene(new Scene(root, 700, 400));
+        Parent root = FXMLLoader.load(getClass().getResource("MainView.fxml"));
+        primaryStage.setTitle("Fuel Tanks Calibration");
+        primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();
     }
-
 
     public static void main(String[] args) {
         launch(args);
